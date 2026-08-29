@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-08-29T19:43:34.658Z",
+  "count": 2,
+  "meals": [
+    {
+      "name": "Lemon Garlic Chicken",
+      "cuisine": "mediterranean",
+      "baseMacros": {
+        "calories": 540,
+        "protein": 46
+      }
+    },
+    {
+      "name": "Tofu Pad Thai",
+      "cuisine": "asian",
+      "baseMacros": {
+        "calories": 620,
+        "protein": 22
+      }
+    }
+  ]
+}
