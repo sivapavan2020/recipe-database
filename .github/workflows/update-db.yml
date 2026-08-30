@@ -20,7 +20,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'   # Node 18+ has global fetch (needed for Edamam)
+          node-version: '22'   # Node 18+ has global fetch (needed for Edamam); 22 avoids the Node-20 deprecation
 
       - name: Build & validate mealsDB.json
         env:
@@ -28,6 +28,7 @@ jobs:
           # If unset, updater.js publishes the seed only (no API pull).
           EDAMAM_APP_ID: ${{ secrets.EDAMAM_APP_ID }}
           EDAMAM_APP_KEY: ${{ secrets.EDAMAM_APP_KEY }}
+          EDAMAM_ACCOUNT_USER: ${{ secrets.EDAMAM_ACCOUNT_USER }}   # your Edamam username (required on v2)
           VALIDATION_PROFILE: global   # or 'cardio' for strict AHA/NIH-DASH caps
         run: node updater.js
 
