@@ -1,22 +1,2693 @@
 {
-  "generatedAt": "2026-08-30T04:52:06.245Z",
-  "count": 2,
+  "generatedAt": "2026-08-30T18:17:24.934Z",
+  "count": 58,
   "meals": [
     {
-      "name": "Lemon Garlic Chicken",
-      "cuisine": "mediterranean",
+      "name": "Masala Tofu Scramble",
+      "source": "seed",
+      "cuisine": "Indian",
+      "proteinCategory": "Tofu",
+      "slot": "breakfast",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
       "baseMacros": {
-        "calories": 540,
-        "protein": 46
-      }
+        "calories": 330,
+        "protein": 26,
+        "carbs": 20,
+        "fat": 16
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Firm tofu",
+          "grams": 200
+        },
+        {
+          "item": "Onion",
+          "grams": 40
+        },
+        {
+          "item": "Tomato",
+          "grams": 60
+        },
+        {
+          "item": "Spinach",
+          "grams": 50
+        },
+        {
+          "item": "Olive oil",
+          "grams": 8
+        },
+        {
+          "item": "Turmeric & spices",
+          "grams": 3
+        }
+      ]
     },
     {
-      "name": "Tofu Pad Thai",
-      "cuisine": "asian",
+      "name": "Greek Yogurt & Berry Bowl",
+      "source": "seed",
+      "cuisine": "Mediterranean",
+      "proteinCategory": "Greek Yogurt",
+      "slot": "breakfast",
+      "dietType": [
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
       "baseMacros": {
-        "calories": 620,
-        "protein": 22
-      }
+        "calories": 310,
+        "protein": 25,
+        "carbs": 33,
+        "fat": 8
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Greek yogurt (0–2%)",
+          "grams": 250
+        },
+        {
+          "item": "Mixed berries",
+          "grams": 100
+        },
+        {
+          "item": "Rolled oats",
+          "grams": 25
+        },
+        {
+          "item": "Chia seeds",
+          "grams": 10
+        },
+        {
+          "item": "Almonds",
+          "grams": 10
+        }
+      ]
+    },
+    {
+      "name": "Veggie Egg-White Omelette",
+      "source": "seed",
+      "cuisine": "American",
+      "proteinCategory": "Eggs",
+      "slot": "breakfast",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 300,
+        "protein": 28,
+        "carbs": 10,
+        "fat": 16
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Whole eggs",
+          "grams": 100
+        },
+        {
+          "item": "Egg whites",
+          "grams": 100
+        },
+        {
+          "item": "Bell pepper",
+          "grams": 50
+        },
+        {
+          "item": "Spinach",
+          "grams": 40
+        },
+        {
+          "item": "Mushrooms",
+          "grams": 40
+        },
+        {
+          "item": "Olive oil",
+          "grams": 6
+        }
+      ]
+    },
+    {
+      "name": "Savory Miso Tofu Oats",
+      "source": "seed",
+      "cuisine": "Asian",
+      "proteinCategory": "Tofu",
+      "slot": "breakfast",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 340,
+        "protein": 22,
+        "carbs": 38,
+        "fat": 11
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Rolled oats",
+          "grams": 45
+        },
+        {
+          "item": "Silken tofu",
+          "grams": 150
+        },
+        {
+          "item": "Edamame (shelled)",
+          "grams": 60
+        },
+        {
+          "item": "Miso paste",
+          "grams": 10
+        },
+        {
+          "item": "Sesame oil",
+          "grams": 5
+        },
+        {
+          "item": "Spring onion",
+          "grams": 20
+        }
+      ]
+    },
+    {
+      "name": "Chicken Tikka Quinoa Bowl",
+      "source": "seed",
+      "cuisine": "Indian",
+      "proteinCategory": "Chicken",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 480,
+        "protein": 45,
+        "carbs": 45,
+        "fat": 13
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 150
+        },
+        {
+          "item": "Quinoa (dry)",
+          "grams": 60
+        },
+        {
+          "item": "Yogurt marinade",
+          "grams": 60
+        },
+        {
+          "item": "Cucumber",
+          "grams": 80
+        },
+        {
+          "item": "Tomato",
+          "grams": 60
+        },
+        {
+          "item": "Olive oil",
+          "grams": 5
+        }
+      ]
+    },
+    {
+      "name": "Mediterranean Grilled Chicken Salad",
+      "source": "seed",
+      "cuisine": "Mediterranean",
+      "proteinCategory": "Chicken",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 450,
+        "protein": 42,
+        "carbs": 24,
+        "fat": 22
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 150
+        },
+        {
+          "item": "Mixed salad greens",
+          "grams": 120
+        },
+        {
+          "item": "Cherry tomato",
+          "grams": 80
+        },
+        {
+          "item": "Cucumber",
+          "grams": 80
+        },
+        {
+          "item": "Olives",
+          "grams": 20
+        },
+        {
+          "item": "Feta",
+          "grams": 30
+        },
+        {
+          "item": "Olive oil",
+          "grams": 10
+        }
+      ]
+    },
+    {
+      "name": "Chickpea Buddha Bowl",
+      "source": "seed",
+      "cuisine": "Mediterranean",
+      "proteinCategory": "Chickpeas",
+      "slot": "lunch",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "High Fiber"
+      ],
+      "baseMacros": {
+        "calories": 460,
+        "protein": 22,
+        "carbs": 60,
+        "fat": 15
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chickpeas (cooked)",
+          "grams": 200
+        },
+        {
+          "item": "Quinoa (dry)",
+          "grams": 50
+        },
+        {
+          "item": "Kale",
+          "grams": 80
+        },
+        {
+          "item": "Roasted peppers",
+          "grams": 80
+        },
+        {
+          "item": "Tahini",
+          "grams": 15
+        },
+        {
+          "item": "Olive oil",
+          "grams": 8
+        }
+      ]
+    },
+    {
+      "name": "Teriyaki Salmon & Greens",
+      "source": "seed",
+      "cuisine": "Asian",
+      "proteinCategory": "Fish",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Omega-3"
+      ],
+      "baseMacros": {
+        "calories": 490,
+        "protein": 40,
+        "carbs": 38,
+        "fat": 18
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Salmon fillet",
+          "grams": 150
+        },
+        {
+          "item": "Brown rice (dry)",
+          "grams": 50
+        },
+        {
+          "item": "Bok choy",
+          "grams": 100
+        },
+        {
+          "item": "Broccoli",
+          "grams": 80
+        },
+        {
+          "item": "Low-sodium teriyaki",
+          "grams": 15
+        },
+        {
+          "item": "Sesame oil",
+          "grams": 5
+        }
+      ]
+    },
+    {
+      "name": "Rajma (Kidney Bean) Bowl",
+      "source": "seed",
+      "cuisine": "Indian",
+      "proteinCategory": "Lentils",
+      "slot": "lunch",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Fiber",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 470,
+        "protein": 21,
+        "carbs": 66,
+        "fat": 12
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Kidney beans (cooked)",
+          "grams": 200
+        },
+        {
+          "item": "Brown rice (dry)",
+          "grams": 55
+        },
+        {
+          "item": "Onion",
+          "grams": 40
+        },
+        {
+          "item": "Tomato",
+          "grams": 70
+        },
+        {
+          "item": "Olive oil",
+          "grams": 8
+        },
+        {
+          "item": "Spices",
+          "grams": 3
+        }
+      ]
+    },
+    {
+      "name": "Tofu & Vegetable Stir-fry",
+      "source": "seed",
+      "cuisine": "Asian",
+      "proteinCategory": "Tofu",
+      "slot": "lunch",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 440,
+        "protein": 26,
+        "carbs": 42,
+        "fat": 18
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Firm tofu",
+          "grams": 200
+        },
+        {
+          "item": "Brown rice (dry)",
+          "grams": 45
+        },
+        {
+          "item": "Mixed stir-fry veg",
+          "grams": 150
+        },
+        {
+          "item": "Low-sodium soy sauce",
+          "grams": 12
+        },
+        {
+          "item": "Sesame oil",
+          "grams": 6
+        },
+        {
+          "item": "Ginger & garlic",
+          "grams": 8
+        }
+      ]
+    },
+    {
+      "name": "Tandoori Fish + Sautéed Veg",
+      "source": "seed",
+      "cuisine": "Indian",
+      "proteinCategory": "Fish",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Omega-3"
+      ],
+      "baseMacros": {
+        "calories": 420,
+        "protein": 44,
+        "carbs": 22,
+        "fat": 16
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "White fish fillet",
+          "grams": 180
+        },
+        {
+          "item": "Yogurt marinade",
+          "grams": 60
+        },
+        {
+          "item": "Green beans",
+          "grams": 120
+        },
+        {
+          "item": "Zucchini",
+          "grams": 100
+        },
+        {
+          "item": "Olive oil",
+          "grams": 8
+        },
+        {
+          "item": "Tandoori spices",
+          "grams": 4
+        }
+      ]
+    },
+    {
+      "name": "Shrimp & Veg Skewers",
+      "source": "seed",
+      "cuisine": "Mediterranean",
+      "proteinCategory": "Shrimp",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 400,
+        "protein": 38,
+        "carbs": 30,
+        "fat": 12
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Shrimp (peeled)",
+          "grams": 180
+        },
+        {
+          "item": "Bell pepper",
+          "grams": 80
+        },
+        {
+          "item": "Zucchini",
+          "grams": 80
+        },
+        {
+          "item": "Cherry tomato",
+          "grams": 60
+        },
+        {
+          "item": "Couscous (dry)",
+          "grams": 40
+        },
+        {
+          "item": "Olive oil",
+          "grams": 8
+        }
+      ]
+    },
+    {
+      "name": "Dal + Roti + Salad",
+      "source": "seed",
+      "cuisine": "Indian",
+      "proteinCategory": "Lentils",
+      "slot": "dinner",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Fiber",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 430,
+        "protein": 20,
+        "carbs": 60,
+        "fat": 12
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Lentils/dal (cooked)",
+          "grams": 220
+        },
+        {
+          "item": "Whole-wheat roti",
+          "grams": 80
+        },
+        {
+          "item": "Mixed salad",
+          "grams": 120
+        },
+        {
+          "item": "Olive oil",
+          "grams": 7
+        },
+        {
+          "item": "Spices",
+          "grams": 3
+        }
+      ]
+    },
+    {
+      "name": "Grilled Chicken + Sweet Potato",
+      "source": "seed",
+      "cuisine": "American",
+      "proteinCategory": "Chicken",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 450,
+        "protein": 46,
+        "carbs": 38,
+        "fat": 12
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 160
+        },
+        {
+          "item": "Sweet potato",
+          "grams": 200
+        },
+        {
+          "item": "Broccoli",
+          "grams": 120
+        },
+        {
+          "item": "Olive oil",
+          "grams": 8
+        }
+      ]
+    },
+    {
+      "name": "Tofu & Edamame Rice Bowl",
+      "source": "seed",
+      "cuisine": "Asian",
+      "proteinCategory": "Tofu",
+      "slot": "dinner",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "High Fiber"
+      ],
+      "baseMacros": {
+        "calories": 440,
+        "protein": 27,
+        "carbs": 46,
+        "fat": 15
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Firm tofu",
+          "grams": 180
+        },
+        {
+          "item": "Edamame (shelled)",
+          "grams": 80
+        },
+        {
+          "item": "Brown rice (dry)",
+          "grams": 45
+        },
+        {
+          "item": "Carrot & cabbage",
+          "grams": 120
+        },
+        {
+          "item": "Low-sodium soy sauce",
+          "grams": 12
+        },
+        {
+          "item": "Sesame oil",
+          "grams": 6
+        }
+      ]
+    },
+    {
+      "name": "Lean Mutton Curry + Veg",
+      "source": "seed",
+      "cuisine": "Indian",
+      "proteinCategory": "Mutton",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 470,
+        "protein": 40,
+        "carbs": 24,
+        "fat": 24
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Lean mutton (trimmed)",
+          "grams": 150
+        },
+        {
+          "item": "Onion",
+          "grams": 50
+        },
+        {
+          "item": "Tomato",
+          "grams": 70
+        },
+        {
+          "item": "Spinach",
+          "grams": 100
+        },
+        {
+          "item": "Olive oil",
+          "grams": 8
+        },
+        {
+          "item": "Spices",
+          "grams": 4
+        }
+      ]
+    },
+    {
+      "name": "Falafel & Hummus Plate",
+      "source": "seed",
+      "cuisine": "Mediterranean",
+      "proteinCategory": "Chickpeas",
+      "slot": "dinner",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Fiber",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 460,
+        "protein": 19,
+        "carbs": 52,
+        "fat": 20
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Baked falafel",
+          "grams": 150
+        },
+        {
+          "item": "Hummus",
+          "grams": 60
+        },
+        {
+          "item": "Tabbouleh salad",
+          "grams": 120
+        },
+        {
+          "item": "Whole-wheat pita",
+          "grams": 60
+        },
+        {
+          "item": "Olive oil",
+          "grams": 6
+        }
+      ]
+    },
+    {
+      "name": "Roasted Chana (Chickpeas)",
+      "source": "seed",
+      "cuisine": "Indian",
+      "proteinCategory": "Chickpeas",
+      "slot": "snack",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Fiber"
+      ],
+      "baseMacros": {
+        "calories": 180,
+        "protein": 10,
+        "carbs": 26,
+        "fat": 4
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Roasted chana",
+          "grams": 45
+        }
+      ]
+    },
+    {
+      "name": "Steamed Edamame",
+      "source": "seed",
+      "cuisine": "Asian",
+      "proteinCategory": "Soy",
+      "slot": "snack",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 170,
+        "protein": 16,
+        "carbs": 14,
+        "fat": 6
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Edamame (in pod)",
+          "grams": 150
+        },
+        {
+          "item": "Sea salt (light)",
+          "grams": 1
+        }
+      ]
+    },
+    {
+      "name": "Greek Yogurt + Nuts",
+      "source": "seed",
+      "cuisine": "Mediterranean",
+      "proteinCategory": "Greek Yogurt",
+      "slot": "snack",
+      "dietType": [
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 200,
+        "protein": 18,
+        "carbs": 12,
+        "fat": 9
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Greek yogurt (0–2%)",
+          "grams": 170
+        },
+        {
+          "item": "Walnuts",
+          "grams": 12
+        }
+      ]
+    },
+    {
+      "name": "Cottage Cheese + Fruit",
+      "source": "seed",
+      "cuisine": "American",
+      "proteinCategory": "Paneer",
+      "slot": "snack",
+      "dietType": [
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 190,
+        "protein": 17,
+        "carbs": 16,
+        "fat": 6
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Low-fat cottage cheese",
+          "grams": 150
+        },
+        {
+          "item": "Apple",
+          "grams": 120
+        }
+      ]
+    },
+    {
+      "name": "Huevos Rancheros (light)",
+      "source": "seed",
+      "cuisine": "Mexican",
+      "proteinCategory": "Eggs",
+      "slot": "breakfast",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 360,
+        "protein": 26,
+        "carbs": 28,
+        "fat": 16
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Whole eggs",
+          "grams": 100
+        },
+        {
+          "item": "Black beans (cooked)",
+          "grams": 60
+        },
+        {
+          "item": "Corn tortilla",
+          "grams": 40
+        },
+        {
+          "item": "Tomato salsa",
+          "grams": 60
+        },
+        {
+          "item": "Avocado",
+          "grams": 30
+        }
+      ]
+    },
+    {
+      "name": "Chicken Fajita Bowl",
+      "source": "seed",
+      "cuisine": "Mexican",
+      "proteinCategory": "Chicken",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 475,
+        "protein": 42,
+        "carbs": 45,
+        "fat": 14
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 150
+        },
+        {
+          "item": "Bell pepper",
+          "grams": 80
+        },
+        {
+          "item": "Onion",
+          "grams": 40
+        },
+        {
+          "item": "Black beans (cooked)",
+          "grams": 80
+        },
+        {
+          "item": "Brown rice (dry)",
+          "grams": 40
+        },
+        {
+          "item": "Tomato salsa",
+          "grams": 40
+        },
+        {
+          "item": "Olive oil",
+          "grams": 8
+        }
+      ]
+    },
+    {
+      "name": "Black Bean Burrito Bowl",
+      "source": "seed",
+      "cuisine": "Mexican",
+      "proteinCategory": "Beans",
+      "slot": "dinner",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Fiber",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 440,
+        "protein": 20,
+        "carbs": 62,
+        "fat": 12
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Black beans (cooked)",
+          "grams": 200
+        },
+        {
+          "item": "Brown rice (dry)",
+          "grams": 45
+        },
+        {
+          "item": "Corn",
+          "grams": 60
+        },
+        {
+          "item": "Avocado",
+          "grams": 40
+        },
+        {
+          "item": "Tomato salsa",
+          "grams": 40
+        }
+      ]
+    },
+    {
+      "name": "Shakshuka (baked eggs)",
+      "source": "seed",
+      "cuisine": "Middle Eastern",
+      "proteinCategory": "Eggs",
+      "slot": "breakfast",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 330,
+        "protein": 24,
+        "carbs": 18,
+        "fat": 18
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Whole eggs",
+          "grams": 100
+        },
+        {
+          "item": "Tomato",
+          "grams": 150
+        },
+        {
+          "item": "Bell pepper",
+          "grams": 60
+        },
+        {
+          "item": "Onion",
+          "grams": 40
+        },
+        {
+          "item": "Olive oil",
+          "grams": 8
+        },
+        {
+          "item": "Spices",
+          "grams": 3
+        }
+      ]
+    },
+    {
+      "name": "Chicken Shawarma Bowl",
+      "source": "seed",
+      "cuisine": "Middle Eastern",
+      "proteinCategory": "Chicken",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 480,
+        "protein": 44,
+        "carbs": 40,
+        "fat": 16
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 150
+        },
+        {
+          "item": "Bulgur (dry)",
+          "grams": 45
+        },
+        {
+          "item": "Cucumber",
+          "grams": 80
+        },
+        {
+          "item": "Tomato",
+          "grams": 60
+        },
+        {
+          "item": "Tahini",
+          "grams": 15
+        },
+        {
+          "item": "Olive oil",
+          "grams": 6
+        }
+      ]
+    },
+    {
+      "name": "Mujadara (lentils & rice)",
+      "source": "seed",
+      "cuisine": "Middle Eastern",
+      "proteinCategory": "Lentils",
+      "slot": "dinner",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Fiber",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 420,
+        "protein": 19,
+        "carbs": 58,
+        "fat": 12
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Lentils/dal (cooked)",
+          "grams": 200
+        },
+        {
+          "item": "Brown rice (dry)",
+          "grams": 45
+        },
+        {
+          "item": "Onion",
+          "grams": 60
+        },
+        {
+          "item": "Olive oil",
+          "grams": 10
+        },
+        {
+          "item": "Spices",
+          "grams": 3
+        }
+      ]
+    },
+    {
+      "name": "Hummus & Veg Sticks",
+      "source": "seed",
+      "cuisine": "Middle Eastern",
+      "proteinCategory": "Chickpeas",
+      "slot": "snack",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Fiber"
+      ],
+      "baseMacros": {
+        "calories": 190,
+        "protein": 8,
+        "carbs": 18,
+        "fat": 9
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Hummus",
+          "grams": 60
+        },
+        {
+          "item": "Carrot & cucumber sticks",
+          "grams": 120
+        }
+      ]
+    },
+    {
+      "name": "Thai Chicken Larb",
+      "source": "seed",
+      "cuisine": "Thai",
+      "proteinCategory": "Chicken",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 415,
+        "protein": 42,
+        "carbs": 32,
+        "fat": 13
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken mince (lean)",
+          "grams": 150
+        },
+        {
+          "item": "Jasmine rice (dry)",
+          "grams": 40
+        },
+        {
+          "item": "Fresh herbs & lettuce",
+          "grams": 80
+        },
+        {
+          "item": "Lime & chili",
+          "grams": 15
+        },
+        {
+          "item": "Fish sauce (low-sodium)",
+          "grams": 8
+        }
+      ]
+    },
+    {
+      "name": "Thai Green Curry Tofu",
+      "source": "seed",
+      "cuisine": "Thai",
+      "proteinCategory": "Tofu",
+      "slot": "dinner",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 440,
+        "protein": 24,
+        "carbs": 40,
+        "fat": 20
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Firm tofu",
+          "grams": 180
+        },
+        {
+          "item": "Green curry paste",
+          "grams": 20
+        },
+        {
+          "item": "Light coconut milk",
+          "grams": 80
+        },
+        {
+          "item": "Mixed veg",
+          "grams": 150
+        },
+        {
+          "item": "Brown rice (dry)",
+          "grams": 40
+        }
+      ]
+    },
+    {
+      "name": "Veggie Bibimbap",
+      "source": "seed",
+      "cuisine": "Korean",
+      "proteinCategory": "Tofu",
+      "slot": "lunch",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "High Fiber"
+      ],
+      "baseMacros": {
+        "calories": 450,
+        "protein": 22,
+        "carbs": 58,
+        "fat": 14
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Firm tofu",
+          "grams": 150
+        },
+        {
+          "item": "Brown rice (dry)",
+          "grams": 50
+        },
+        {
+          "item": "Spinach",
+          "grams": 60
+        },
+        {
+          "item": "Carrot",
+          "grams": 50
+        },
+        {
+          "item": "Bean sprouts",
+          "grams": 60
+        },
+        {
+          "item": "Gochujang",
+          "grams": 15
+        },
+        {
+          "item": "Sesame oil",
+          "grams": 6
+        }
+      ]
+    },
+    {
+      "name": "Korean Chicken Rice Bowl",
+      "source": "seed",
+      "cuisine": "Korean",
+      "proteinCategory": "Chicken",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 460,
+        "protein": 44,
+        "carbs": 42,
+        "fat": 13
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 150
+        },
+        {
+          "item": "Brown rice (dry)",
+          "grams": 45
+        },
+        {
+          "item": "Kimchi",
+          "grams": 60
+        },
+        {
+          "item": "Cucumber",
+          "grams": 60
+        },
+        {
+          "item": "Gochujang",
+          "grams": 12
+        },
+        {
+          "item": "Sesame oil",
+          "grams": 6
+        }
+      ]
+    },
+    {
+      "name": "Salmon Poke Bowl",
+      "source": "seed",
+      "cuisine": "Japanese",
+      "proteinCategory": "Fish",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Omega-3"
+      ],
+      "baseMacros": {
+        "calories": 470,
+        "protein": 38,
+        "carbs": 46,
+        "fat": 15
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Salmon fillet",
+          "grams": 140
+        },
+        {
+          "item": "Sushi rice (dry)",
+          "grams": 55
+        },
+        {
+          "item": "Edamame (shelled)",
+          "grams": 50
+        },
+        {
+          "item": "Cucumber",
+          "grams": 60
+        },
+        {
+          "item": "Avocado",
+          "grams": 40
+        },
+        {
+          "item": "Low-sodium soy sauce",
+          "grams": 12
+        }
+      ]
+    },
+    {
+      "name": "Baked Chicken Katsu",
+      "source": "seed",
+      "cuisine": "Japanese",
+      "proteinCategory": "Chicken",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 470,
+        "protein": 45,
+        "carbs": 40,
+        "fat": 14
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 150
+        },
+        {
+          "item": "Panko breadcrumbs",
+          "grams": 25
+        },
+        {
+          "item": "Egg (for coating)",
+          "grams": 30
+        },
+        {
+          "item": "Cabbage slaw",
+          "grams": 100
+        },
+        {
+          "item": "Brown rice (dry)",
+          "grams": 45
+        },
+        {
+          "item": "Olive oil",
+          "grams": 6
+        }
+      ]
+    },
+    {
+      "name": "Steamed Ginger Fish + Rice",
+      "source": "seed",
+      "cuisine": "Chinese",
+      "proteinCategory": "Fish",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 440,
+        "protein": 40,
+        "carbs": 40,
+        "fat": 12
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "White fish fillet",
+          "grams": 170
+        },
+        {
+          "item": "Steamed rice (dry)",
+          "grams": 45
+        },
+        {
+          "item": "Pak choi & greens",
+          "grams": 150
+        },
+        {
+          "item": "Ginger, garlic & scallion",
+          "grams": 15
+        },
+        {
+          "item": "Low-sodium soy sauce",
+          "grams": 10
+        }
+      ]
+    },
+    {
+      "name": "Tofu & Broccoli Stir-fry",
+      "source": "seed",
+      "cuisine": "Chinese",
+      "proteinCategory": "Tofu",
+      "slot": "dinner",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 430,
+        "protein": 25,
+        "carbs": 40,
+        "fat": 17
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Firm tofu",
+          "grams": 180
+        },
+        {
+          "item": "Broccoli",
+          "grams": 150
+        },
+        {
+          "item": "Steamed rice (dry)",
+          "grams": 45
+        },
+        {
+          "item": "Low-sodium soy sauce",
+          "grams": 12
+        },
+        {
+          "item": "Sesame oil",
+          "grams": 6
+        }
+      ]
+    },
+    {
+      "name": "Chicken Pho (broth bowl)",
+      "source": "seed",
+      "cuisine": "Vietnamese",
+      "proteinCategory": "Chicken",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 420,
+        "protein": 38,
+        "carbs": 48,
+        "fat": 8
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 130
+        },
+        {
+          "item": "Rice noodles (dry)",
+          "grams": 50
+        },
+        {
+          "item": "Bean sprouts & herbs",
+          "grams": 100
+        },
+        {
+          "item": "Low-sodium broth",
+          "grams": 300
+        },
+        {
+          "item": "Lime & chili",
+          "grams": 10
+        }
+      ]
+    },
+    {
+      "name": "Grilled Lemongrass Chicken + Fresh Rolls",
+      "source": "seed",
+      "cuisine": "Vietnamese",
+      "proteinCategory": "Chicken",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 450,
+        "protein": 42,
+        "carbs": 40,
+        "fat": 13
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 150
+        },
+        {
+          "item": "Rice paper & veg",
+          "grams": 80
+        },
+        {
+          "item": "Vermicelli (dry)",
+          "grams": 40
+        },
+        {
+          "item": "Herbs & lettuce",
+          "grams": 80
+        },
+        {
+          "item": "Lemongrass & lime",
+          "grams": 12
+        }
+      ]
+    },
+    {
+      "name": "Minestrone + Grilled Chicken",
+      "source": "seed",
+      "cuisine": "Italian",
+      "proteinCategory": "Chicken",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "High Fiber"
+      ],
+      "baseMacros": {
+        "calories": 440,
+        "protein": 40,
+        "carbs": 44,
+        "fat": 12
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 130
+        },
+        {
+          "item": "Mixed beans & veg",
+          "grams": 200
+        },
+        {
+          "item": "Wholegrain pasta (dry)",
+          "grams": 35
+        },
+        {
+          "item": "Tomato",
+          "grams": 80
+        },
+        {
+          "item": "Olive oil",
+          "grams": 8
+        }
+      ]
+    },
+    {
+      "name": "Grilled Fish + Big Salad + Small Pasta",
+      "source": "seed",
+      "cuisine": "Italian",
+      "proteinCategory": "Fish",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 460,
+        "protein": 40,
+        "carbs": 40,
+        "fat": 16
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "White fish fillet",
+          "grams": 170
+        },
+        {
+          "item": "Wholegrain pasta (dry)",
+          "grams": 40
+        },
+        {
+          "item": "Salad greens & tomato",
+          "grams": 150
+        },
+        {
+          "item": "Olive oil",
+          "grams": 10
+        }
+      ]
+    },
+    {
+      "name": "Gazpacho + Grilled Seafood",
+      "source": "seed",
+      "cuisine": "Spanish",
+      "proteinCategory": "Shrimp",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 400,
+        "protein": 36,
+        "carbs": 34,
+        "fat": 12
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Shrimp (peeled)",
+          "grams": 160
+        },
+        {
+          "item": "Gazpacho (tomato & veg)",
+          "grams": 300
+        },
+        {
+          "item": "Wholegrain bread",
+          "grams": 40
+        },
+        {
+          "item": "Olive oil",
+          "grams": 8
+        }
+      ]
+    },
+    {
+      "name": "Piri-Piri Chicken + Pulses",
+      "source": "seed",
+      "cuisine": "Spanish",
+      "proteinCategory": "Chicken",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 460,
+        "protein": 46,
+        "carbs": 34,
+        "fat": 15
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 160
+        },
+        {
+          "item": "White beans (cooked)",
+          "grams": 120
+        },
+        {
+          "item": "Salad & peppers",
+          "grams": 120
+        },
+        {
+          "item": "Piri-piri & olive oil",
+          "grams": 10
+        }
+      ]
+    },
+    {
+      "name": "Red Lentil Soup + Shirazi Salad",
+      "source": "seed",
+      "cuisine": "Turkish",
+      "proteinCategory": "Lentils",
+      "slot": "lunch",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Fiber",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 400,
+        "protein": 20,
+        "carbs": 56,
+        "fat": 10
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Red lentils (cooked)",
+          "grams": 220
+        },
+        {
+          "item": "Cucumber & tomato salad",
+          "grams": 150
+        },
+        {
+          "item": "Wholegrain bread",
+          "grams": 40
+        },
+        {
+          "item": "Olive oil",
+          "grams": 8
+        }
+      ]
+    },
+    {
+      "name": "Grilled Chicken Kebab + Yogurt",
+      "source": "seed",
+      "cuisine": "Turkish",
+      "proteinCategory": "Chicken",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 470,
+        "protein": 46,
+        "carbs": 32,
+        "fat": 16
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 160
+        },
+        {
+          "item": "Bulgur (dry)",
+          "grams": 40
+        },
+        {
+          "item": "Grilled veg",
+          "grams": 120
+        },
+        {
+          "item": "Plain yogurt (cacık)",
+          "grams": 60
+        },
+        {
+          "item": "Olive oil",
+          "grams": 6
+        }
+      ]
+    },
+    {
+      "name": "Misir Wat (red lentil) + Injera",
+      "source": "seed",
+      "cuisine": "Ethiopian",
+      "proteinCategory": "Lentils",
+      "slot": "lunch",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Fiber",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 430,
+        "protein": 20,
+        "carbs": 64,
+        "fat": 10
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Red lentils (cooked)",
+          "grams": 220
+        },
+        {
+          "item": "Injera (small)",
+          "grams": 90
+        },
+        {
+          "item": "Onion & tomato",
+          "grams": 80
+        },
+        {
+          "item": "Berbere spice & oil",
+          "grams": 10
+        }
+      ]
+    },
+    {
+      "name": "Gomen Greens + Split-Pea Wat",
+      "source": "seed",
+      "cuisine": "Ethiopian",
+      "proteinCategory": "Lentils",
+      "slot": "dinner",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Fiber"
+      ],
+      "baseMacros": {
+        "calories": 410,
+        "protein": 19,
+        "carbs": 58,
+        "fat": 11
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Yellow split peas (cooked)",
+          "grams": 200
+        },
+        {
+          "item": "Collard greens",
+          "grams": 150
+        },
+        {
+          "item": "Injera (small)",
+          "grams": 80
+        },
+        {
+          "item": "Olive oil & spice",
+          "grams": 9
+        }
+      ]
+    },
+    {
+      "name": "Jerk Chicken + Beans & Greens",
+      "source": "seed",
+      "cuisine": "Caribbean",
+      "proteinCategory": "Chicken",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 470,
+        "protein": 44,
+        "carbs": 44,
+        "fat": 13
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 150
+        },
+        {
+          "item": "Kidney beans (cooked)",
+          "grams": 100
+        },
+        {
+          "item": "Callaloo/greens",
+          "grams": 120
+        },
+        {
+          "item": "Rice (dry)",
+          "grams": 35
+        },
+        {
+          "item": "Jerk spice & oil",
+          "grams": 8
+        }
+      ]
+    },
+    {
+      "name": "Grilled Fish + Callaloo",
+      "source": "seed",
+      "cuisine": "Caribbean",
+      "proteinCategory": "Fish",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Omega-3"
+      ],
+      "baseMacros": {
+        "calories": 440,
+        "protein": 40,
+        "carbs": 36,
+        "fat": 15
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "White fish fillet",
+          "grams": 170
+        },
+        {
+          "item": "Callaloo/greens",
+          "grams": 150
+        },
+        {
+          "item": "Sweet potato",
+          "grams": 120
+        },
+        {
+          "item": "Olive oil",
+          "grams": 8
+        }
+      ]
+    },
+    {
+      "name": "Skyr + Berries Bowl",
+      "source": "seed",
+      "cuisine": "Nordic",
+      "proteinCategory": "Greek Yogurt",
+      "slot": "breakfast",
+      "dietType": [
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 300,
+        "protein": 26,
+        "carbs": 30,
+        "fat": 7
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Skyr (high-protein yogurt)",
+          "grams": 250
+        },
+        {
+          "item": "Mixed berries",
+          "grams": 100
+        },
+        {
+          "item": "Rolled oats",
+          "grams": 20
+        },
+        {
+          "item": "Pumpkin seeds",
+          "grams": 10
+        }
+      ]
+    },
+    {
+      "name": "Baked Salmon + Root Veg + Rye",
+      "source": "seed",
+      "cuisine": "Nordic",
+      "proteinCategory": "Fish",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Omega-3"
+      ],
+      "baseMacros": {
+        "calories": 480,
+        "protein": 40,
+        "carbs": 38,
+        "fat": 19
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Salmon fillet",
+          "grams": 150
+        },
+        {
+          "item": "Roasted root veg",
+          "grams": 180
+        },
+        {
+          "item": "Rye crispbread",
+          "grams": 30
+        },
+        {
+          "item": "Olive oil",
+          "grams": 8
+        }
+      ]
+    },
+    {
+      "name": "Chicken Satay + Gado-Gado (light)",
+      "source": "seed",
+      "cuisine": "Indonesian",
+      "proteinCategory": "Chicken",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 470,
+        "protein": 42,
+        "carbs": 36,
+        "fat": 18
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 150
+        },
+        {
+          "item": "Mixed steamed veg",
+          "grams": 150
+        },
+        {
+          "item": "Light peanut sauce",
+          "grams": 25
+        },
+        {
+          "item": "Rice (dry)",
+          "grams": 35
+        },
+        {
+          "item": "Egg",
+          "grams": 50
+        }
+      ]
+    },
+    {
+      "name": "Soto (broth) + Grilled Fish + Sambal Veg",
+      "source": "seed",
+      "cuisine": "Indonesian",
+      "proteinCategory": "Fish",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 440,
+        "protein": 40,
+        "carbs": 40,
+        "fat": 12
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "White fish fillet",
+          "grams": 160
+        },
+        {
+          "item": "Turmeric broth & veg",
+          "grams": 300
+        },
+        {
+          "item": "Rice (dry)",
+          "grams": 40
+        },
+        {
+          "item": "Sambal & lime",
+          "grams": 12
+        }
+      ]
+    },
+    {
+      "name": "Chicken Tinola (ginger broth)",
+      "source": "seed",
+      "cuisine": "Filipino",
+      "proteinCategory": "Chicken",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 420,
+        "protein": 40,
+        "carbs": 34,
+        "fat": 12
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 150
+        },
+        {
+          "item": "Green papaya & spinach",
+          "grams": 150
+        },
+        {
+          "item": "Ginger broth",
+          "grams": 300
+        },
+        {
+          "item": "Rice (dry)",
+          "grams": 35
+        }
+      ]
+    },
+    {
+      "name": "Inihaw (grilled) Fish + Veg + Rice",
+      "source": "seed",
+      "cuisine": "Filipino",
+      "proteinCategory": "Fish",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Omega-3"
+      ],
+      "baseMacros": {
+        "calories": 450,
+        "protein": 40,
+        "carbs": 40,
+        "fat": 14
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Fish fillet",
+          "grams": 170
+        },
+        {
+          "item": "Grilled eggplant & tomato",
+          "grams": 150
+        },
+        {
+          "item": "Rice (dry)",
+          "grams": 40
+        },
+        {
+          "item": "Calamansi & oil",
+          "grams": 8
+        }
+      ]
+    },
+    {
+      "name": "Lentil & Pea Soup + Big Salad",
+      "source": "seed",
+      "cuisine": "German",
+      "proteinCategory": "Lentils",
+      "slot": "lunch",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Fiber",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 410,
+        "protein": 22,
+        "carbs": 56,
+        "fat": 9
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Lentils & split peas (cooked)",
+          "grams": 220
+        },
+        {
+          "item": "Mixed salad",
+          "grams": 150
+        },
+        {
+          "item": "Wholegrain bread",
+          "grams": 40
+        },
+        {
+          "item": "Olive oil",
+          "grams": 8
+        }
+      ]
+    },
+    {
+      "name": "Roast Lean Chicken + Sauerkraut",
+      "source": "seed",
+      "cuisine": "German",
+      "proteinCategory": "Chicken",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 450,
+        "protein": 46,
+        "carbs": 30,
+        "fat": 16
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 160
+        },
+        {
+          "item": "Sauerkraut",
+          "grams": 120
+        },
+        {
+          "item": "Boiled potato",
+          "grams": 150
+        },
+        {
+          "item": "Olive oil",
+          "grams": 6
+        }
+      ]
+    },
+    {
+      "name": "Grilled Chicken + Corn + Beans",
+      "source": "seed",
+      "cuisine": "BBQ",
+      "proteinCategory": "Chicken",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 470,
+        "protein": 46,
+        "carbs": 44,
+        "fat": 12
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 160
+        },
+        {
+          "item": "Corn on the cob",
+          "grams": 100
+        },
+        {
+          "item": "Black beans (cooked)",
+          "grams": 100
+        },
+        {
+          "item": "Light slaw",
+          "grams": 100
+        },
+        {
+          "item": "Olive oil",
+          "grams": 6
+        }
+      ]
+    },
+    {
+      "name": "BBQ Shrimp Skewers + Salad",
+      "source": "seed",
+      "cuisine": "BBQ",
+      "proteinCategory": "Shrimp",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 400,
+        "protein": 38,
+        "carbs": 30,
+        "fat": 12
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Shrimp (peeled)",
+          "grams": 180
+        },
+        {
+          "item": "Grilled veg",
+          "grams": 120
+        },
+        {
+          "item": "Corn",
+          "grams": 60
+        },
+        {
+          "item": "Salad greens",
+          "grams": 80
+        },
+        {
+          "item": "Olive oil",
+          "grams": 8
+        }
+      ]
     }
   ]
 }
