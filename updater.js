@@ -86,6 +86,9 @@ async function fetchFromEdamam(){
     console.log('ℹ️  Edamam credentials not set (EDAMAM_APP_ID / EDAMAM_APP_KEY) — skipping API pull, seed only.');
     return [];
   }
+  // Newer Edamam Recipe Search v2 accounts REQUIRE an Edamam-Account-User header (the account
+  // owner's username). Set EDAMAM_ACCOUNT_USER; falls back to EDAMAM_APP_ID if unset.
+  const acctUser = (process.env.EDAMAM_ACCOUNT_USER || EDAMAM_ID).trim();
   const out = [];
   for(const cuisine of EDAMAM_CUISINES){
     const url = `https://api.edamam.com/api/recipes/v2?type=public`
@@ -93,8 +96,10 @@ async function fetchFromEdamam(){
       + `&cuisineType=${encodeURIComponent(cuisine)}&health=alcohol-free`
       + `&random=true`;
     try{
-      const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
-      if(!res.ok){ console.warn(`  Edamam ${cuisine}: HTTP ${res.status} — skipped`); continue; }
+      const res = await fetch(url, { headers: { 'Accept': 'application/json', 'Edamam-Account-User': acctUser } });
+      if(!res.ok){
+        let hint=''; if(res.status===401) hint=' (check: keys are for the RECIPE SEARCH API, secret names EDAMAM_APP_ID/EDAMAM_APP_KEY, and set EDAMAM_ACCOUNT_USER to your Edamam username)';
+        console.warn(`  Edamam ${cuisine}: HTTP ${res.status} — skipped${hint}`); continue; }
       const data = await res.json();
       const hits = (data.hits || []).slice(0, EDAMAM_PER_CUISINE);
       hits.forEach(h => { const m = normalizeEdamamRecipe(h, cuisine); if(m) out.push(m); });
