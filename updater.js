@@ -86,9 +86,12 @@ async function fetchFromEdamam(){
     console.log('ℹ️  Edamam credentials not set (EDAMAM_APP_ID / EDAMAM_APP_KEY) — skipping API pull, seed only.');
     return [];
   }
-  // Newer Edamam Recipe Search v2 accounts REQUIRE an Edamam-Account-User header (the account
-  // owner's username). Set EDAMAM_ACCOUNT_USER; falls back to EDAMAM_APP_ID if unset.
-  const acctUser = (process.env.EDAMAM_ACCOUNT_USER || EDAMAM_ID).trim();
+  // The Edamam-Account-User header is ONLY for newer "supports users" apps. Older/free-plan apps
+  // REJECT it ("This app does not support users") → 401. So send it ONLY if EDAMAM_ACCOUNT_USER
+  // is explicitly set; otherwise omit it (correct for free-plan Recipe Search apps).
+  const acctUser = (process.env.EDAMAM_ACCOUNT_USER || '').trim();
+  const baseHeaders = { 'Accept': 'application/json' };
+  if(acctUser) baseHeaders['Edamam-Account-User'] = acctUser;
   const out = [];
   for(const cuisine of EDAMAM_CUISINES){
     const url = `https://api.edamam.com/api/recipes/v2?type=public`
@@ -96,9 +99,9 @@ async function fetchFromEdamam(){
       + `&cuisineType=${encodeURIComponent(cuisine)}&health=alcohol-free`
       + `&random=true`;
     try{
-      const res = await fetch(url, { headers: { 'Accept': 'application/json', 'Edamam-Account-User': acctUser } });
+      const res = await fetch(url, { headers: baseHeaders });
       if(!res.ok){
-        let hint=''; if(res.status===401) hint=' (check: keys are for the RECIPE SEARCH API, secret names EDAMAM_APP_ID/EDAMAM_APP_KEY, and set EDAMAM_ACCOUNT_USER to your Edamam username)';
+        let hint=''; if(res.status===401) hint=' (401 — if you set EDAMAM_ACCOUNT_USER but your app is free-plan, REMOVE that secret: free apps must not send the account-user header)';
         console.warn(`  Edamam ${cuisine}: HTTP ${res.status} — skipped${hint}`); continue; }
       const data = await res.json();
       const hits = (data.hits || []).slice(0, EDAMAM_PER_CUISINE);
