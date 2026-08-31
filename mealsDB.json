@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-31T02:46:46.145Z",
-  "count": 58,
+  "generatedAt": "2026-08-31T02:50:10.658Z",
+  "count": 90,
   "meals": [
     {
       "name": "Masala Tofu Scramble",
@@ -2686,6 +2686,1699 @@
         {
           "item": "Olive oil",
           "grams": 8
+        }
+      ]
+    },
+    {
+      "name": "Moong Dal Cheela with Mint Chutney",
+      "source": "seed",
+      "cuisine": "Indian",
+      "proteinCategory": "Lentils",
+      "slot": "breakfast",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "High Fiber",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 315,
+        "protein": 18,
+        "carbs": 45,
+        "fat": 7
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Split moong dal (dry)",
+          "grams": 70
+        },
+        {
+          "item": "Onion",
+          "grams": 30
+        },
+        {
+          "item": "Tomato",
+          "grams": 30
+        },
+        {
+          "item": "Spinach",
+          "grams": 20
+        },
+        {
+          "item": "Green chili & coriander",
+          "grams": 8
+        },
+        {
+          "item": "Mint-coriander chutney",
+          "grams": 15
+        },
+        {
+          "item": "Olive oil",
+          "grams": 6
+        }
+      ]
+    },
+    {
+      "name": "Anda Bhurji (Masala Egg Scramble) with Roti",
+      "source": "seed",
+      "cuisine": "Indian",
+      "proteinCategory": "Eggs",
+      "slot": "breakfast",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 337,
+        "protein": 24,
+        "carbs": 22,
+        "fat": 17
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Whole eggs",
+          "grams": 100
+        },
+        {
+          "item": "Egg whites",
+          "grams": 66
+        },
+        {
+          "item": "Onion",
+          "grams": 40
+        },
+        {
+          "item": "Tomato",
+          "grams": 40
+        },
+        {
+          "item": "Whole-wheat roti",
+          "grams": 30
+        },
+        {
+          "item": "Green chili & coriander",
+          "grams": 6
+        },
+        {
+          "item": "Olive oil",
+          "grams": 5
+        }
+      ]
+    },
+    {
+      "name": "Ankurit Moong Chaat (Sprouted Mung Salad)",
+      "source": "seed",
+      "cuisine": "Indian",
+      "proteinCategory": "Lentils",
+      "slot": "snack",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Fiber",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 180,
+        "protein": 11,
+        "carbs": 27,
+        "fat": 3
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Sprouted moong (steamed)",
+          "grams": 140
+        },
+        {
+          "item": "Onion",
+          "grams": 25
+        },
+        {
+          "item": "Tomato",
+          "grams": 30
+        },
+        {
+          "item": "Cucumber",
+          "grams": 30
+        },
+        {
+          "item": "Lemon juice",
+          "grams": 5
+        },
+        {
+          "item": "Roasted peanuts",
+          "grams": 6
+        },
+        {
+          "item": "Coriander & chaat masala",
+          "grams": 3
+        }
+      ]
+    },
+    {
+      "name": "Ful Medames (Egyptian Stewed Fava Beans)",
+      "source": "seed",
+      "cuisine": "Mediterranean",
+      "proteinCategory": "Legumes",
+      "slot": "breakfast",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "High Fiber",
+        "Low GI",
+        "NAFLD",
+        "Weight Loss"
+      ],
+      "baseMacros": {
+        "calories": 309,
+        "protein": 15,
+        "carbs": 42,
+        "fat": 9
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Cooked fava beans",
+          "grams": 160
+        },
+        {
+          "item": "Extra virgin olive oil",
+          "grams": 8
+        },
+        {
+          "item": "Tomato",
+          "grams": 60
+        },
+        {
+          "item": "Whole grain pita",
+          "grams": 30
+        },
+        {
+          "item": "Lemon juice",
+          "grams": 10
+        },
+        {
+          "item": "Garlic",
+          "grams": 5
+        },
+        {
+          "item": "Fresh parsley",
+          "grams": 5
+        }
+      ]
+    },
+    {
+      "name": "Muhammara (Roasted Red Pepper & Walnut Dip)",
+      "source": "seed",
+      "cuisine": "Mediterranean",
+      "proteinCategory": "Nuts & Seeds",
+      "slot": "snack",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Heart Healthy",
+        "Weight Loss",
+        "Low GI"
+      ],
+      "baseMacros": {
+        "calories": 185,
+        "protein": 3,
+        "carbs": 14,
+        "fat": 13
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Roasted red peppers",
+          "grams": 80
+        },
+        {
+          "item": "Walnuts",
+          "grams": 15
+        },
+        {
+          "item": "Whole grain breadcrumbs",
+          "grams": 10
+        },
+        {
+          "item": "Extra virgin olive oil",
+          "grams": 3
+        },
+        {
+          "item": "Lemon juice",
+          "grams": 5
+        },
+        {
+          "item": "Garlic",
+          "grams": 3
+        }
+      ]
+    },
+    {
+      "name": "Natto Gohan with Onsen Tamago",
+      "source": "seed",
+      "cuisine": "Japanese",
+      "proteinCategory": "Soy",
+      "slot": "breakfast",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "High-Protein",
+        "Low-GI",
+        "Gut-Health",
+        "Anti-Inflammatory"
+      ],
+      "baseMacros": {
+        "calories": 315,
+        "protein": 19,
+        "carbs": 35,
+        "fat": 11
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Brown rice, cooked",
+          "grams": 110
+        },
+        {
+          "item": "Natto (fermented soybeans)",
+          "grams": 45
+        },
+        {
+          "item": "Soft-cooked (onsen) egg",
+          "grams": 50
+        },
+        {
+          "item": "Scallion, sliced",
+          "grams": 15
+        },
+        {
+          "item": "Nori seaweed",
+          "grams": 2
+        },
+        {
+          "item": "Low-sodium soy sauce",
+          "grams": 6
+        }
+      ]
+    },
+    {
+      "name": "Xiang Gu Doufu Zhou (Shiitake & Tofu Congee)",
+      "source": "seed",
+      "cuisine": "Chinese",
+      "proteinCategory": "Tofu",
+      "slot": "breakfast",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Low-GI",
+        "Heart-Healthy",
+        "Plant-Based",
+        "Anti-Inflammatory"
+      ],
+      "baseMacros": {
+        "calories": 303,
+        "protein": 15,
+        "carbs": 36,
+        "fat": 11
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Brown rice, cooked (simmered to congee)",
+          "grams": 120
+        },
+        {
+          "item": "Firm tofu, diced",
+          "grams": 130
+        },
+        {
+          "item": "Fresh shiitake mushrooms, sliced",
+          "grams": 40
+        },
+        {
+          "item": "Scallion, sliced",
+          "grams": 15
+        },
+        {
+          "item": "Toasted sesame oil",
+          "grams": 4
+        },
+        {
+          "item": "Low-sodium soy sauce",
+          "grams": 5
+        }
+      ]
+    },
+    {
+      "name": "Goi Cuon (Vietnamese Shrimp Summer Rolls)",
+      "source": "seed",
+      "cuisine": "Vietnamese",
+      "proteinCategory": "Shrimp",
+      "slot": "snack",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "High-Protein",
+        "Low-Fat",
+        "Low-Calorie",
+        "Heart-Healthy"
+      ],
+      "baseMacros": {
+        "calories": 181,
+        "protein": 15,
+        "carbs": 28,
+        "fat": 1
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Rice paper wrappers",
+          "grams": 20
+        },
+        {
+          "item": "Poached shrimp",
+          "grams": 50
+        },
+        {
+          "item": "Rice vermicelli, cooked",
+          "grams": 40
+        },
+        {
+          "item": "Lettuce, mint & cilantro",
+          "grams": 30
+        },
+        {
+          "item": "Carrot, julienned",
+          "grams": 15
+        }
+      ]
+    },
+    {
+      "name": "Sake no Shioyaki Teishoku (Salt-Grilled Salmon Set)",
+      "source": "seed",
+      "cuisine": "Japanese",
+      "proteinCategory": "Fish",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "High-Protein",
+        "Omega-3",
+        "Heart-Healthy",
+        "Liver-Friendly"
+      ],
+      "baseMacros": {
+        "calories": 451,
+        "protein": 34,
+        "carbs": 36,
+        "fat": 19
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Salmon fillet, grilled",
+          "grams": 120
+        },
+        {
+          "item": "Brown rice, cooked",
+          "grams": 130
+        },
+        {
+          "item": "Spinach, steamed",
+          "grams": 80
+        },
+        {
+          "item": "Daikon radish, grated",
+          "grams": 40
+        },
+        {
+          "item": "Sesame seeds, toasted",
+          "grams": 5
+        },
+        {
+          "item": "Low-sodium soy sauce",
+          "grams": 6
+        }
+      ]
+    },
+    {
+      "name": "Pho Ga (Vietnamese Chicken Noodle Soup)",
+      "source": "seed",
+      "cuisine": "Vietnamese",
+      "proteinCategory": "Chicken",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "High-Protein",
+        "Low-Fat",
+        "Low-GI",
+        "Anti-Inflammatory"
+      ],
+      "baseMacros": {
+        "calories": 442,
+        "protein": 46,
+        "carbs": 51,
+        "fat": 6
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Rice noodles (banh pho), cooked",
+          "grams": 180
+        },
+        {
+          "item": "Chicken breast, poached & sliced",
+          "grams": 130
+        },
+        {
+          "item": "Low-sodium chicken broth",
+          "grams": 250
+        },
+        {
+          "item": "Bean sprouts",
+          "grams": 50
+        },
+        {
+          "item": "Thai basil, cilantro & scallion",
+          "grams": 20
+        },
+        {
+          "item": "Lime wedge",
+          "grams": 10
+        },
+        {
+          "item": "Fresh ginger",
+          "grams": 5
+        }
+      ]
+    },
+    {
+      "name": "Lowcountry Shrimp & Grits",
+      "source": "seed",
+      "cuisine": "American",
+      "proteinCategory": "Shrimp",
+      "slot": "breakfast",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 310,
+        "protein": 29,
+        "carbs": 30,
+        "fat": 8
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Shrimp (peeled)",
+          "grams": 130
+        },
+        {
+          "item": "Stone-ground grits (dry)",
+          "grams": 35
+        },
+        {
+          "item": "Bell pepper",
+          "grams": 40
+        },
+        {
+          "item": "Scallions",
+          "grams": 15
+        },
+        {
+          "item": "Olive oil",
+          "grams": 6
+        },
+        {
+          "item": "Smoked paprika & pepper",
+          "grams": 2
+        }
+      ]
+    },
+    {
+      "name": "Cajun Blackened Chicken & Red Bean Bowl",
+      "source": "seed",
+      "cuisine": "American",
+      "proteinCategory": "Chicken",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 470,
+        "protein": 45,
+        "carbs": 45,
+        "fat": 12
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 160
+        },
+        {
+          "item": "Red kidney beans (cooked, rinsed)",
+          "grams": 90
+        },
+        {
+          "item": "Brown rice (cooked)",
+          "grams": 90
+        },
+        {
+          "item": "Collard greens",
+          "grams": 80
+        },
+        {
+          "item": "Olive oil",
+          "grams": 6
+        },
+        {
+          "item": "Salt-free Cajun blackening spice",
+          "grams": 3
+        }
+      ]
+    },
+    {
+      "name": "Cedar-Plank Grilled Salmon",
+      "source": "seed",
+      "cuisine": "American",
+      "proteinCategory": "Fish",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Heart Healthy",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 435,
+        "protein": 41,
+        "carbs": 31,
+        "fat": 16
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Wild salmon fillet",
+          "grams": 170
+        },
+        {
+          "item": "Wild rice (cooked)",
+          "grams": 130
+        },
+        {
+          "item": "Asparagus",
+          "grams": 100
+        },
+        {
+          "item": "Olive oil",
+          "grams": 5
+        },
+        {
+          "item": "Lemon",
+          "grams": 15
+        },
+        {
+          "item": "Fresh dill",
+          "grams": 2
+        }
+      ]
+    },
+    {
+      "name": "Nopales con Huevo a la Mexicana",
+      "source": "seed",
+      "cuisine": "Mexican",
+      "proteinCategory": "Eggs",
+      "slot": "breakfast",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "High Fiber",
+        "Low Glycemic"
+      ],
+      "baseMacros": {
+        "calories": 330,
+        "protein": 25,
+        "carbs": 26,
+        "fat": 14
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Whole eggs",
+          "grams": 120
+        },
+        {
+          "item": "Egg whites",
+          "grams": 40
+        },
+        {
+          "item": "Nopales (cactus paddles)",
+          "grams": 120
+        },
+        {
+          "item": "Fresh tomato-serrano salsa",
+          "grams": 70
+        },
+        {
+          "item": "White onion",
+          "grams": 30
+        },
+        {
+          "item": "Corn tortilla",
+          "grams": 30
+        },
+        {
+          "item": "Olive oil",
+          "grams": 4
+        }
+      ]
+    },
+    {
+      "name": "Chilaquiles Verdes con Pollo (baked)",
+      "source": "seed",
+      "cuisine": "Mexican",
+      "proteinCategory": "Chicken",
+      "slot": "breakfast",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 320,
+        "protein": 26,
+        "carbs": 36,
+        "fat": 8
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Baked corn tortilla chips",
+          "grams": 40
+        },
+        {
+          "item": "Shredded chicken breast",
+          "grams": 90
+        },
+        {
+          "item": "Salsa verde (tomatillo)",
+          "grams": 100
+        },
+        {
+          "item": "Queso fresco",
+          "grams": 20
+        },
+        {
+          "item": "White onion",
+          "grams": 20
+        },
+        {
+          "item": "Cilantro & lime",
+          "grams": 10
+        }
+      ]
+    },
+    {
+      "name": "Pepitas y Jicama con Chile-Limon",
+      "source": "seed",
+      "cuisine": "Mexican",
+      "proteinCategory": "Pumpkin Seeds",
+      "slot": "snack",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Fiber",
+        "Low Glycemic"
+      ],
+      "baseMacros": {
+        "calories": 188,
+        "protein": 8,
+        "carbs": 12,
+        "fat": 12
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Pumpkin seeds (pepitas)",
+          "grams": 20
+        },
+        {
+          "item": "Jicama",
+          "grams": 120
+        },
+        {
+          "item": "Lime",
+          "grams": 15
+        },
+        {
+          "item": "Chili-lime seasoning (low-salt)",
+          "grams": 2
+        },
+        {
+          "item": "Cilantro",
+          "grams": 5
+        }
+      ]
+    },
+    {
+      "name": "Ful Medames",
+      "source": "seed",
+      "cuisine": "Middle Eastern",
+      "proteinCategory": "Legumes",
+      "slot": "breakfast",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "Insulin Resistance",
+        "Heart Health",
+        "High Fiber"
+      ],
+      "baseMacros": {
+        "calories": 313,
+        "protein": 16,
+        "carbs": 42,
+        "fat": 9
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Cooked fava beans",
+          "grams": 200
+        },
+        {
+          "item": "Extra virgin olive oil",
+          "grams": 8
+        },
+        {
+          "item": "Lemon juice",
+          "grams": 15
+        },
+        {
+          "item": "Garlic",
+          "grams": 5
+        },
+        {
+          "item": "Fresh parsley",
+          "grams": 10
+        },
+        {
+          "item": "Ground cumin",
+          "grams": 1
+        },
+        {
+          "item": "Diced tomato",
+          "grams": 40
+        }
+      ]
+    },
+    {
+      "name": "Balila",
+      "source": "seed",
+      "cuisine": "Middle Eastern",
+      "proteinCategory": "Legumes",
+      "slot": "snack",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Fiber",
+        "Insulin Resistance"
+      ],
+      "baseMacros": {
+        "calories": 191,
+        "protein": 8.5,
+        "carbs": 25,
+        "fat": 6.4
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Cooked chickpeas",
+          "grams": 110
+        },
+        {
+          "item": "Olive oil",
+          "grams": 4
+        },
+        {
+          "item": "Lemon juice",
+          "grams": 10
+        },
+        {
+          "item": "Garlic",
+          "grams": 4
+        },
+        {
+          "item": "Ground cumin",
+          "grams": 1
+        },
+        {
+          "item": "Fresh parsley",
+          "grams": 8
+        }
+      ]
+    },
+    {
+      "name": "Shish Tawook",
+      "source": "seed",
+      "cuisine": "Middle Eastern",
+      "proteinCategory": "Chicken",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "High Protein",
+        "Weight Loss",
+        "NAFLD",
+        "Heart Health"
+      ],
+      "baseMacros": {
+        "calories": 439,
+        "protein": 43,
+        "carbs": 33,
+        "fat": 15
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 180
+        },
+        {
+          "item": "Low-fat yogurt",
+          "grams": 40
+        },
+        {
+          "item": "Lemon juice",
+          "grams": 15
+        },
+        {
+          "item": "Garlic",
+          "grams": 6
+        },
+        {
+          "item": "Olive oil",
+          "grams": 10
+        },
+        {
+          "item": "Cooked bulgur",
+          "grams": 150
+        },
+        {
+          "item": "Fresh parsley",
+          "grams": 15
+        }
+      ]
+    },
+    {
+      "name": "Samak Harra",
+      "source": "seed",
+      "cuisine": "Middle Eastern",
+      "proteinCategory": "Fish",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "High Protein",
+        "Weight Loss",
+        "NAFLD",
+        "Heart Health",
+        "Low Carb"
+      ],
+      "baseMacros": {
+        "calories": 452,
+        "protein": 50,
+        "carbs": 12,
+        "fat": 22.7
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "White fish fillet",
+          "grams": 220
+        },
+        {
+          "item": "Tahini",
+          "grams": 24
+        },
+        {
+          "item": "Olive oil",
+          "grams": 8
+        },
+        {
+          "item": "Onion",
+          "grams": 50
+        },
+        {
+          "item": "Garlic",
+          "grams": 6
+        },
+        {
+          "item": "Fresh cilantro",
+          "grams": 15
+        },
+        {
+          "item": "Lemon juice",
+          "grams": 12
+        }
+      ]
+    },
+    {
+      "name": "Nattō Gohan",
+      "source": "seed",
+      "cuisine": "Japanese",
+      "proteinCategory": "Soy",
+      "slot": "breakfast",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "High Fiber"
+      ],
+      "baseMacros": {
+        "calories": 310,
+        "protein": 16,
+        "carbs": 46,
+        "fat": 7
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Nattō (fermented soybeans)",
+          "grams": 60
+        },
+        {
+          "item": "Brown rice (dry)",
+          "grams": 50
+        },
+        {
+          "item": "Nori sheet",
+          "grams": 2
+        },
+        {
+          "item": "Spring onion",
+          "grams": 15
+        },
+        {
+          "item": "Low-sodium soy sauce",
+          "grams": 8
+        }
+      ]
+    },
+    {
+      "name": "Dashimaki Tamago",
+      "source": "seed",
+      "cuisine": "Japanese",
+      "proteinCategory": "Eggs",
+      "slot": "breakfast",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 320,
+        "protein": 21,
+        "carbs": 29,
+        "fat": 13
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Whole eggs",
+          "grams": 135
+        },
+        {
+          "item": "Dashi stock",
+          "grams": 20
+        },
+        {
+          "item": "Steamed rice (dry)",
+          "grams": 35
+        },
+        {
+          "item": "Grated daikon",
+          "grams": 40
+        },
+        {
+          "item": "Nori sheet",
+          "grams": 2
+        },
+        {
+          "item": "Low-sodium soy sauce",
+          "grams": 5
+        }
+      ]
+    },
+    {
+      "name": "Hiyayakko (Chilled Tofu)",
+      "source": "seed",
+      "cuisine": "Japanese",
+      "proteinCategory": "Tofu",
+      "slot": "snack",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 175,
+        "protein": 14,
+        "carbs": 8,
+        "fat": 10
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Soft tofu",
+          "grams": 220
+        },
+        {
+          "item": "Fresh ginger",
+          "grams": 5
+        },
+        {
+          "item": "Spring onion",
+          "grams": 15
+        },
+        {
+          "item": "Low-sodium soy sauce",
+          "grams": 8
+        },
+        {
+          "item": "Toasted sesame seeds",
+          "grams": 5
+        },
+        {
+          "item": "Shredded nori",
+          "grams": 2
+        }
+      ]
+    },
+    {
+      "name": "Shio Yakitori Don",
+      "source": "seed",
+      "cuisine": "Japanese",
+      "proteinCategory": "Chicken",
+      "slot": "lunch",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 440,
+        "protein": 32,
+        "carbs": 50,
+        "fat": 12
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken thigh (skinless)",
+          "grams": 160
+        },
+        {
+          "item": "Steamed rice (dry)",
+          "grams": 60
+        },
+        {
+          "item": "Negi (spring onion)",
+          "grams": 30
+        },
+        {
+          "item": "Shishito peppers",
+          "grams": 40
+        },
+        {
+          "item": "Low-sodium soy sauce",
+          "grams": 6
+        },
+        {
+          "item": "Toasted sesame seeds",
+          "grams": 3
+        }
+      ]
+    },
+    {
+      "name": "Gai Satay (Grilled Lemongrass Chicken Skewers)",
+      "source": "seed",
+      "cuisine": "Thai",
+      "proteinCategory": "Chicken",
+      "slot": "snack",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 170,
+        "protein": 22,
+        "carbs": 7,
+        "fat": 6
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 90
+        },
+        {
+          "item": "Light coconut milk (marinade)",
+          "grams": 15
+        },
+        {
+          "item": "Lemongrass & turmeric",
+          "grams": 5
+        },
+        {
+          "item": "Cucumber relish (ajad)",
+          "grams": 40
+        },
+        {
+          "item": "Lime",
+          "grams": 5
+        }
+      ]
+    },
+    {
+      "name": "Chicken & Ginger Congee (Ji Rou Zhou)",
+      "source": "seed",
+      "cuisine": "Chinese",
+      "proteinCategory": "Chicken",
+      "slot": "breakfast",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium",
+        "Gut Friendly"
+      ],
+      "baseMacros": {
+        "calories": 300,
+        "protein": 24,
+        "carbs": 38,
+        "fat": 6
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 95
+        },
+        {
+          "item": "Rice (dry)",
+          "grams": 45
+        },
+        {
+          "item": "Bok choy",
+          "grams": 50
+        },
+        {
+          "item": "Ginger",
+          "grams": 10
+        },
+        {
+          "item": "Scallion",
+          "grams": 15
+        },
+        {
+          "item": "Low-sodium soy sauce",
+          "grams": 6
+        },
+        {
+          "item": "Sesame oil",
+          "grams": 3
+        }
+      ]
+    },
+    {
+      "name": "Savory Tofu Pudding (Dou Hua)",
+      "source": "seed",
+      "cuisine": "Chinese",
+      "proteinCategory": "Tofu",
+      "slot": "breakfast",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Plant Protein"
+      ],
+      "baseMacros": {
+        "calories": 310,
+        "protein": 22,
+        "carbs": 15,
+        "fat": 18
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Silken tofu",
+          "grams": 250
+        },
+        {
+          "item": "Edamame (shelled)",
+          "grams": 50
+        },
+        {
+          "item": "Peanuts (crushed)",
+          "grams": 10
+        },
+        {
+          "item": "Wood-ear mushroom",
+          "grams": 20
+        },
+        {
+          "item": "Scallion",
+          "grams": 12
+        },
+        {
+          "item": "Low-sodium soy sauce",
+          "grams": 6
+        },
+        {
+          "item": "Sesame oil",
+          "grams": 4
+        }
+      ]
+    },
+    {
+      "name": "Steamed Chicken with Shiitake (Xianggu Zheng Ji)",
+      "source": "seed",
+      "cuisine": "Chinese",
+      "proteinCategory": "Chicken",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 440,
+        "protein": 41,
+        "carbs": 47,
+        "fat": 10
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "grams": 160
+        },
+        {
+          "item": "Shiitake mushrooms",
+          "grams": 60
+        },
+        {
+          "item": "Steamed rice (dry)",
+          "grams": 50
+        },
+        {
+          "item": "Bok choy",
+          "grams": 120
+        },
+        {
+          "item": "Ginger & scallion",
+          "grams": 12
+        },
+        {
+          "item": "Low-sodium soy sauce",
+          "grams": 10
+        },
+        {
+          "item": "Sesame oil",
+          "grams": 5
+        }
+      ]
+    },
+    {
+      "name": "Gyeran-jjim (Korean Steamed Egg Custard)",
+      "source": "seed",
+      "cuisine": "Korean",
+      "proteinCategory": "Eggs",
+      "slot": "breakfast",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "Low Sodium"
+      ],
+      "baseMacros": {
+        "calories": 331,
+        "protein": 25,
+        "carbs": 24,
+        "fat": 15
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Whole eggs",
+          "grams": 120
+        },
+        {
+          "item": "Egg whites",
+          "grams": 55
+        },
+        {
+          "item": "Short-grain rice (dry)",
+          "grams": 30
+        },
+        {
+          "item": "Carrot & spring onion",
+          "grams": 30
+        },
+        {
+          "item": "Anchovy-kelp broth (dashi)",
+          "grams": 100
+        },
+        {
+          "item": "Sesame oil",
+          "grams": 2
+        }
+      ]
+    },
+    {
+      "name": "Kongnamul-bap (Soybean Sprout Rice Bowl)",
+      "source": "seed",
+      "cuisine": "Korean",
+      "proteinCategory": "Tofu",
+      "slot": "breakfast",
+      "dietType": [
+        "Vegan",
+        "Vegetarian"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein",
+        "High Fiber"
+      ],
+      "baseMacros": {
+        "calories": 341,
+        "protein": 24,
+        "carbs": 32,
+        "fat": 13
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Soybean sprouts (kongnamul)",
+          "grams": 120
+        },
+        {
+          "item": "Short-grain rice (dry)",
+          "grams": 45
+        },
+        {
+          "item": "Firm tofu",
+          "grams": 130
+        },
+        {
+          "item": "Spring onion",
+          "grams": 15
+        },
+        {
+          "item": "Low-sodium soy-scallion sauce",
+          "grams": 12
+        },
+        {
+          "item": "Sesame oil",
+          "grams": 5
+        },
+        {
+          "item": "Toasted sesame seeds",
+          "grams": 3
+        }
+      ]
+    },
+    {
+      "name": "Chamchi Jumeokbap (Tuna Rice Balls)",
+      "source": "seed",
+      "cuisine": "Korean",
+      "proteinCategory": "Fish",
+      "slot": "snack",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 181,
+        "protein": 18,
+        "carbs": 17,
+        "fat": 4.5
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Canned tuna in water (drained)",
+          "grams": 60
+        },
+        {
+          "item": "Short-grain rice (dry)",
+          "grams": 22
+        },
+        {
+          "item": "Roasted seaweed (gim)",
+          "grams": 3
+        },
+        {
+          "item": "Carrot & spring onion",
+          "grams": 20
+        },
+        {
+          "item": "Toasted sesame seeds",
+          "grams": 3
+        },
+        {
+          "item": "Low-sodium soy sauce",
+          "grams": 5
+        }
+      ]
+    },
+    {
+      "name": "Haemul Sundubu-jjigae (Seafood Soft Tofu Stew)",
+      "source": "seed",
+      "cuisine": "Korean",
+      "proteinCategory": "Shrimp",
+      "slot": "dinner",
+      "dietType": [
+        "Non-Veg"
+      ],
+      "healthFocus": [
+        "Weight Loss",
+        "High Protein"
+      ],
+      "baseMacros": {
+        "calories": 440,
+        "protein": 38,
+        "carbs": 45,
+        "fat": 12
+      },
+      "saturatedFat": null,
+      "addedSugar": null,
+      "sodium": null,
+      "transFat": null,
+      "ingredients": [
+        {
+          "item": "Soft (silken) tofu",
+          "grams": 200
+        },
+        {
+          "item": "Shrimp (peeled)",
+          "grams": 100
+        },
+        {
+          "item": "Short-grain rice (dry)",
+          "grams": 45
+        },
+        {
+          "item": "Zucchini",
+          "grams": 50
+        },
+        {
+          "item": "Enoki mushroom",
+          "grams": 40
+        },
+        {
+          "item": "Gochugaru & garlic",
+          "grams": 8
+        },
+        {
+          "item": "Anchovy-kelp broth",
+          "grams": 200
         }
       ]
     }
