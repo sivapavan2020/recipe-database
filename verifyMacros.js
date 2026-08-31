@@ -76,9 +76,12 @@
     const hits=[];
     const cat=(recipe && recipe.proteinCategory||'').toString().toLowerCase().trim();
     if(BLOCKED_CATEGORIES.includes(cat)) hits.push('proteinCategory="'+recipe.proteinCategory+'"');
+    // ingredients may be missing, a string, or malformed from an API — coerce to a safe array first
+    const ingList = Array.isArray(recipe && recipe.ingredients) ? recipe.ingredients
+      : (recipe && typeof recipe.ingredients === 'string' ? [recipe.ingredients] : []);
     const parts = [
       (recipe && recipe.name)||'',
-      ...(((recipe && recipe.ingredients)||[]).map(i=> typeof i==='string'?i:(i&&i.item)||'')),
+      ...ingList.map(i=> typeof i==='string'?i:(i&&i.item)||''),
     ];
     parts.forEach(p=>{ const m=String(p).match(TERM_RE); if(m) hits.push('"'+p+'" contains restricted term "'+m[0].toLowerCase()+'"'); });
     return Array.from(new Set(hits));
