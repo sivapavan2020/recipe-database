@@ -120,14 +120,20 @@ async function main(){
   const RAW_MEALS = seed.meals.concat(apiMeals);
   console.log(`Sources: ${seed.meals.length} seed + ${apiMeals.length} Edamam = ${RAW_MEALS.length} candidates.`);
 
-  // VALIDATION GATE — reject restricted meat or any macro over the per-meal cap.
-  const accepted = [], rejected = [];
+   const accepted = [], rejected = [];
   for(const meal of RAW_MEALS){
-    const verdict = verifyClinicalMacros(meal, { profile: PROFILE, mealsPerDay: 3 });
-    if(verdict.pass) accepted.push(meal);
-    else { rejected.push({ name: meal.name, reasons: verdict.violations.map(v => v.code) });
-      console.warn(`✗ REJECTED "${meal.name}": ${verdict.violations.map(v => v.message).join(' | ')}`); }
+    try{
+      const verdict = verifyClinicalMacros(meal, { profile: PROFILE, mealsPerDay: 3 });
+      if(verdict.pass) accepted.push(meal);
+      else { rejected.push({ name: meal.name, reasons: verdict.violations.map(v => v.code) });
+        console.warn(`✗ REJECTED "${meal.name}": ${verdict.violations.map(v => v.message).join(' | ')}`); }
+    }catch(e){
+      // a single malformed API recipe must never crash the whole build — skip it and keep going
+      rejected.push({ name: (meal&&meal.name)||'(unnamed)', reasons: ['GATE_ERROR'] });
+      console.warn(`✗ SKIPPED "${(meal&&meal.name)||'(unnamed)'}": gate error — ${e.message}`);
+    }
   }
+
 
   // RESHAPE — normalize to the published shape (tolerate seed's baseMacros OR raw macros).
   const meals = accepted.map(m => {
