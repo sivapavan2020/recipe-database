@@ -6,7 +6,7 @@
    it is written — so harmful recipes never reach the published file.
 
    Sources, in order:
-     1) sources/meals.seed.json — the app's 58 clinically-audited meals (always).
+     1) sources/meals.seed.json — the app's clinically-audited meals (always).
      2) Edamam Recipe Search API — OPTIONAL, only if EDAMAM_APP_ID + EDAMAM_APP_KEY
         env vars are set (store them as GitHub Secrets). Pulled recipes are normalized
         to our schema, then MUST pass the same gate. This honors the STRICT SOURCING
@@ -86,12 +86,29 @@ async function fetchFromEdamam(){
     console.log('ℹ️  Edamam credentials not set (EDAMAM_APP_ID / EDAMAM_APP_KEY) — skipping API pull, seed only.');
     return [];
   }
-  // The Edamam-Account-User header is ONLY for newer "supports users" apps. Older/free-plan apps
-  // REJECT it ("This app does not support users") → 401. So send it ONLY if EDAMAM_ACCOUNT_USER
-  // is explicitly set; otherwise omit it (correct for free-plan Recipe Search apps).
-  const acctUser = (process.env.EDAMAM_ACCOUNT_USER || '').trim();
-  const baseHeaders = { 'Accept': 'application/json' };
-  if(acctUser) baseHeaders['Edamam-Account-User'] = acctUser;
+  // Edamam has TWO app generations with OPPOSITE header rules:
+  //   • Older/free-plan "Siva-style" apps → REJECT the Edamam-Account-User header (401 if sent).
+  //   • Newer (2025+) apps → REQUIRE it (401 if MISSING).
+  // We can't know which yours is, so we AUTO-DETECT: try WITHOUT the header; on 401, retry WITH it
+  // (using EDAMAM_ACCOUNT_USER, or the app-id as a sensible default account name). Whichever mode
+  // works, we lock to it for the rest of the run. Self-healing for either app type.
+  const acctUser = (process.env.EDAMAM_ACCOUNT_USER || '').trim() || EDAMAM_ID;   // header value if needed
+  let mode = 'auto';   // 'auto' → decide on first call; then 'plain' or 'header'
+  async function edamamGet(url){
+    const tryFetch = withHeader => fetch(url, { headers: withHeader
+      ? { 'Accept':'application/json', 'Edamam-Account-User': acctUser }
+      : { 'Accept':'application/json' } });
+    if(mode==='auto'){
+      let res = await tryFetch(false);                 // attempt 1: no header (old-style apps)
+      if(res.status===401){ const r2 = await tryFetch(true); // attempt 2: with header (new-style apps)
+        if(r2.ok){ mode='header'; console.log('  Edamam: using account-user header (new-style app)'); return r2; }
+        mode='plain'; return res;                       // both failed → keep 401 to report
+      }
+      mode='plain'; if(res.ok) console.log('  Edamam: no header needed (free-plan app)');
+      return res;
+    }
+    return tryFetch(mode==='header');
+  }
   const out = [];
   for(const cuisine of EDAMAM_CUISINES){
     const url = `https://api.edamam.com/api/recipes/v2?type=public`
@@ -99,9 +116,9 @@ async function fetchFromEdamam(){
       + `&cuisineType=${encodeURIComponent(cuisine)}&health=alcohol-free`
       + `&random=true`;
     try{
-      const res = await fetch(url, { headers: baseHeaders });
+      const res = await edamamGet(url);
       if(!res.ok){
-        let hint=''; if(res.status===401) hint=' (401 — if you set EDAMAM_ACCOUNT_USER but your app is free-plan, REMOVE that secret: free apps must not send the account-user header)';
+        let hint=''; if(res.status===401) hint=' (401 — check your APP_ID/APP_KEY are for a RECIPE SEARCH app with the free plan attached; tried both with and without the account-user header)';
         console.warn(`  Edamam ${cuisine}: HTTP ${res.status} — skipped${hint}`); continue; }
       const data = await res.json();
       const hits = (data.hits || []).slice(0, EDAMAM_PER_CUISINE);
@@ -120,7 +137,8 @@ async function main(){
   const RAW_MEALS = seed.meals.concat(apiMeals);
   console.log(`Sources: ${seed.meals.length} seed + ${apiMeals.length} Edamam = ${RAW_MEALS.length} candidates.`);
 
-   const accepted = [], rejected = [];
+  // VALIDATION GATE — reject restricted meat or any macro over the per-meal cap.
+  const accepted = [], rejected = [];
   for(const meal of RAW_MEALS){
     try{
       const verdict = verifyClinicalMacros(meal, { profile: PROFILE, mealsPerDay: 3 });
@@ -133,7 +151,6 @@ async function main(){
       console.warn(`✗ SKIPPED "${(meal&&meal.name)||'(unnamed)'}": gate error — ${e.message}`);
     }
   }
-
 
   // RESHAPE — normalize to the published shape (tolerate seed's baseMacros OR raw macros).
   const meals = accepted.map(m => {
