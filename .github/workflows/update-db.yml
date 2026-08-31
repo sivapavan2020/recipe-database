@@ -12,6 +12,9 @@ on:
       - 'updater.js'
       - 'verifyMacros.js'
 
+permissions:
+  contents: write            # let the workflow token push the rebuilt mealsDB.json (fixes 403 on git push)
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,7 +31,7 @@ jobs:
           # If unset, updater.js publishes the seed only (no API pull).
           EDAMAM_APP_ID: ${{ secrets.EDAMAM_APP_ID }}
           EDAMAM_APP_KEY: ${{ secrets.EDAMAM_APP_KEY }}
-          EDAMAM_ACCOUNT_USER: ${{ secrets.EDAMAM_ACCOUNT_USER }}   # your Edamam username (required on v2)
+          # NOTE: do NOT wire EDAMAM_ACCOUNT_USER — free-plan Recipe Search apps 401 if that header is sent.
           VALIDATION_PROFILE: global   # or 'cardio' for strict AHA/NIH-DASH caps
         run: node updater.js
 
@@ -39,7 +42,12 @@ jobs:
           if [[ -n "$(git status --porcelain mealsDB.json)" ]]; then
             git add mealsDB.json
             git commit -m "chore: rebuild mealsDB.json ($(date -u +%Y-%m-%d))"
-            git push
+            if git push; then
+              echo "✓ Pushed updated mealsDB.json"
+            else
+              echo "::error::git push failed (403?). Set Settings ▸ Actions ▸ General ▸ Workflow permissions → Read and write."
+              exit 1
+            fi
           else
             echo "No change to mealsDB.json"
           fi
